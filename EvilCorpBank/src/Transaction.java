@@ -218,7 +218,7 @@ public class Transaction {
 		}
 	}
 
-	private static void calculate(HashMap<Integer, HashMap<String, Double>> hashAccount, HashMap<String, Double>hashDateSorted) {
+	 static void calculate(HashMap<Integer, HashMap<String, Double>> hashAccount, HashMap<String, Double>hashDateSorted) {
 		
 		for(Account a: acc )
 		{
